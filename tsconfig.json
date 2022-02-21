@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src", // setting a value for baseUrl is required
+		"paths": {
+			// "presentation-layer/*": ["presentation-layer/*"],
+			// "business-layer/*": ["business-layer/*"]
+		},
+		"target": "es6",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src"]
+}

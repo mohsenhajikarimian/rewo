@@ -1,0 +1,29 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.vscode": true,
+		".vscode": true,
+		"**/node_modules": true,
+		"node_modules": true,
+		"**/.gitignore": true,
+		".gitignore": true,
+		"**/package-lock.json": true,
+		"package-lock.json": true,
+		"src/react-app-env.d.ts": true,
+		"src/reportWebVitals.ts": true,
+		"src/setupTests.ts": true,
+		"**/README.md": true,
+		"**/package.json": true,
+		"**/tsconfig.json": true,
+		"package.json": true,
+		"tsconfig.json": true,
+		"**/tsconfig.zip": true,
+		"tsconfig.zip": true
+	},
+	"explorerExclude.backup": null
+}

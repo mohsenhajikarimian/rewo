@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'iransans';
+	src: url('/public/fonts/iransans/IRANSansWeb.woff2');
+}
+@font-face {
+	font-family: 'iransans';
+	src: url('/public/fonts/iransans/IRANSansWeb_Bold.woff2');
+	font-weight: bold;
+}
+div.container {
+	padding: 10px;
+	padding-bottom: 3rem;
+}
+.layout {
+	position: relative;
+	min-height: 100vh;
+}
+* {
+	font-family: 'iransans';
+	direction: rtl;
+}
+p {
+	font-size: 16px;
+	line-height: 36px;
+	text-align: justify;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 24px;
+	line-height: 72px;
+}
+h2 {
+	font-size: 18px;
+	line-height: 64px;
+}
+h3,
+h4,
+h5,
+h6 {
+	font-size: 16px;
+	line-height: 64px;
+}
+a {
+	text-decoration: none;
+}
